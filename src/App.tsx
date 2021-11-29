@@ -1,10 +1,8 @@
-import './App.css';
-import Mastermind from './layouts/Mastermind';
+import "./App.css";
+import Mastermind from "./layouts/Mastermind";
 
 function App() {
-  return (
-    <Mastermind/>
-  );
+  return <Mastermind />;
 }
 
 export default App;

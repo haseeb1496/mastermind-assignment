@@ -1,78 +1,78 @@
 .app-container {
-    min-width: 26rem;
-    padding: 2rem 1rem 1rem 1rem;
-    position: relative;
-    a {
-        color: #1A8D7C;
-        text-decoration: none;
-        border-bottom: 1px dotted #1A8D7C;
+  min-width: 26rem;
+  padding: 2rem 1rem 1rem 1rem;
+  position: relative;
+  a {
+    color: #1a8d7c;
+    text-decoration: none;
+    border-bottom: 1px dotted #1a8d7c;
+  }
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: max-content;
+    font-family: "Cinzel", serif;
+    max-width: 26rem;
+    .title-container {
+      color: white;
+      font-size: 2.6rem;
+      margin-bottom: 1.1rem;
+      margin-top: 0;
+      span {
+        padding: 0.4rem;
+      }
+      .M {
+        background-color: #ffb400;
+      }
+      .A {
+        background-color: #ff5a5f;
+      }
+      .S {
+        background-color: #8ce071;
+      }
+      .T {
+        background-color: #00d1c1;
+      }
+      .E {
+        background-color: #007a87;
+      }
+      .R {
+        background-color: #7b0051;
+      }
+      .MIND {
+        color: black;
+        letter-spacing: 0.5rem;
+      }
     }
-    .game-container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        width: max-content;
-        font-family: 'Cinzel', serif;
-        max-width: 26rem;
-        .title-container {
-            color: white;
-            font-size: 2.6rem;
-            margin-bottom: 1.1rem;
-            margin-top: 0;
-            span {
-                padding: .4rem;
-            }
-            .M {
-                background-color: #ffb400;
-            }
-            .A {
-                background-color: #ff5a5f;
-            }
-            .S {
-                background-color: #8ce071;
-            }
-            .T {
-                background-color: #00d1c1;
-            }
-            .E {
-                background-color: #007a87;
-            }
-            .R {
-                background-color: #7b0051;
-            }
-            .MIND {
-                color: black;
-                letter-spacing: .5rem;
-            }
-        }
-        .rules-container {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 1.25rem;
-            .rules-info {
-                padding: .5rem 1rem;
-                border: #EAEBE9 1px solid;
-            }
-            .rules-heading {
-                cursor: pointer;
-                font-size: 1.2rem;
-            }
-        }
-        .footer {
-            margin-top: 2rem;
-            border-top: 1px solid #A8A8A8;
-            padding-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            .copyright-link {
-                margin-top: .5rem;
-            }
-        }
-        .game {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding-right: 1rem;
-        }
+    .rules-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.25rem;
+      .rules-info {
+        padding: 0.5rem 1rem;
+        border: #eaebe9 1px solid;
+      }
+      .rules-heading {
+        cursor: pointer;
+        font-size: 1.2rem;
+      }
     }
+    .footer {
+      margin-top: 2rem;
+      border-top: 1px solid #a8a8a8;
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      .copyright-link {
+        margin-top: 0.5rem;
+      }
+    }
+    .game {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-right: 1rem;
+    }
+  }
 }
