@@ -1,0 +1,16 @@
+.color-selector {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+    .color {
+        height: 2.1rem;
+        width: 2.1rem;
+        border: 2px solid #EAEBE9;
+        border-radius: 50%;
+        margin: .05rem;
+        cursor: pointer;
+    }
+    .active {
+        border: 2px solid #525554;
+    }
+}
